@@ -33,9 +33,15 @@ $ ganache-cli
 
 Since the contracts folder and migration will be on the repo we don't need to run command `truffle init` otherwise you have to
 
-To compile contract run command : `truffle compile`
+To compile contract run command : 
+```bash
+$ truffle compile
+```
 
-To build the contract run command : `truffle migrate`
+To build the contract run command : 
+```bash 
+$ truffle migrate
+```
 
 To start the server run command :
 ```bash
