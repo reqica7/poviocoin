@@ -2,7 +2,7 @@
 
 # PovioCoin example
 
-This is a simple example on how to connect node js with etherume smart contract
+This is a simple example on how to connect node js with etherum smart contract
 
 [//]: # (End Intro)
 
@@ -31,13 +31,13 @@ You can start up by running the command
 $ ganache-cli
 ```
 
-Since the contracts folder and migration will be on the repo
-We don't need to run command `truffle init` otherwise you have to
+Since the contracts folder and migration will be on the repo we don't need to run command `truffle init` otherwise you have to
 
 To compile contract run command : `truffle compile`
+
 To build the contract run command : `truffle migrate`
 
-To run the server run command :
+To start the server run command :
 ```bash
 # local development in watch mode
 $ npm run start
